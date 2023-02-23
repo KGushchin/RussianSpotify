@@ -100,7 +100,7 @@ playBtnSection.src = `img/pausebtn.png`;
 AudioWrapper.classList.add('playingNow');
 audioSection.src = `audio/audio${mustPlay}.mp3`;
 audioSection.play()
-
+audio.pause()
 
 
 
